@@ -1,0 +1,21 @@
+:root{
+  --white: #fafafa; 
+  --second-pink-500: #ff347f; 
+  --pink-800: #c9356c; 
+  --pink-300: #f48db4; 
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
