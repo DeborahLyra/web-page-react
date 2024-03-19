@@ -82,7 +82,6 @@ export function BookList() {
     )
 }
 
-
 const DivBookList = styled.div` 
     background-color: var(--pink-300);
     color: var(--white);
@@ -91,7 +90,6 @@ const DivBookList = styled.div`
 const DivCardDetails = styled.div` 
     padding: 0.5rem ;
 `
-
 
 const DivBookListTitle = styled.div` 
     line-height: 2rem;
@@ -105,5 +103,10 @@ const DivBookListTitle = styled.div`
     }
     p {
         font-size: 1.2rem;
+    }
+
+    @media(max-width: 580px){
+        padding: 1.5rem;
+       
     }
 `
