@@ -3,6 +3,7 @@ import AuthorsList from './components /authorsList/AuthorsList'
 import { Banner } from './components /banner/Banner'
 import { BookList } from './components /bookList/BookList'
 import { Header } from './components /header/Header'
+import { PhotoBanner } from './components /photoBanner/PhotoBanner'
 
 function App() {
   return(
@@ -11,6 +12,7 @@ function App() {
     <Banner/>
     <BookList/>
     <AuthorsList/>
+    <PhotoBanner/>
     </>
   )
 }

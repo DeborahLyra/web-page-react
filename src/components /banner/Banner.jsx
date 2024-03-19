@@ -44,4 +44,9 @@ const DivBannerTitle = styled.div`
     h1 {
         font-size: 3rem;
       }
+
+      @media(max-width: 590px){
+        text-align: center;
+        left:2rem;
+    }
 `
