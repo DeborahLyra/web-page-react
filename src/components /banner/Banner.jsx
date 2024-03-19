@@ -26,7 +26,7 @@ const SectionBanner = styled.div`
 `
 
 const DivBannerTitle = styled.div`
-    font-family: "Cormorant Upright", serif;
+    font-family: var(--fancy-font);
     font-weight: 700;
     font-size: 2rem;
     color: var(--pink-800);
@@ -40,4 +40,8 @@ const DivBannerTitle = styled.div`
     align-items: center;
     justify-content: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+
+    h1 {
+        font-size: 3rem;
+      }
 `

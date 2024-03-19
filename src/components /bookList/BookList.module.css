@@ -1,0 +1,20 @@
+.bookList{
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 1rem;
+}
+
+.bookList li {
+    list-style: none;
+    background-color: var(--pink-500);
+    width: 250px;
+    line-height: 1.5rem;
+}
+
+.bookList img {
+    
+    height: 250px;
+}

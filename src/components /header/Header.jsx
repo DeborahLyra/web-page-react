@@ -16,7 +16,7 @@ export function Header() {
 
             <DivHeaderIcons>
                 <i className="fa-brands fa-github"></i>
-                <i class="fa-solid fa-bars"></i>
+                <i className="fa-solid fa-bars"></i>
             </DivHeaderIcons>
         </PageHeader>
     )
