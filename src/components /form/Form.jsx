@@ -26,7 +26,7 @@ export function Form() {
                     </div>
                 </div>
             </form>
-            <button type='submit' className='w-48 p-2 border-2 border-white rounded-lg outline-none font-bold justify-self-end md:m-0 lg:ml-32 lg:mr-32'>Enviar</button>
+            <button type='submit' className='w-48 p-2 border-2 border-white rounded-lg outline-none font-bold sm:justify-self-center lg:justify-self-end md:m-0 lg:ml-32 lg:mr-32'>Enviar</button>
         </div>
 
     )
