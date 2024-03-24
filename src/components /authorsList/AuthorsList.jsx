@@ -55,10 +55,15 @@ const DivAuthorsList = styled.div`
     padding: 4rem 8rem;
 
     h2 {
+        texxt-align: center;
         font-size: 3rem;
         margin-bottom: 1rem;
         letter-spacing: 3px;
         font-family:var(--fancy-font);
+    }
+
+    @media(max-width: 800px){
+     padding: 2rem;
     }
 `
 
@@ -85,6 +90,7 @@ const DivAuthor = styled.div`
     }
 
     @media(max-width: 800px){
+
         flex-direction: column;
         h4 {
             text-align: center;

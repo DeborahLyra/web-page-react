@@ -1,0 +1,58 @@
+.contactTitle {
+  font-family: var(--fancy-font);
+}
+
+.formContainer {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr; 
+  grid-template-areas: 
+  'name'
+  'emailPhone'
+  'textarea';
+  background: var(--pink-300);
+}
+
+.name {
+  grid-area: name;
+}
+
+.emailPhone {
+  grid-area: emailPhone;
+}
+
+.textarea{
+  grid-area: textarea;
+}
+
+.emailPhone {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-areas: 
+  'email phone'
+}
+
+.email {
+  grid-area: email;
+}
+
+.phone {
+  grid-area: phone;
+}
+
+@media(max-width: 960px){
+  .emailPhone {
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr; 
+    grid-template-areas: 
+    'email'
+    'phone'
+  }
+}
+
+label {
+  font-weight: bold;
+}
+
+
