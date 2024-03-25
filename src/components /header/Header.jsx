@@ -22,7 +22,7 @@ export function Header() {
                 <a href="https://github.com/DeborahLyra" target='_blank'><i className="fa-brands fa-github"></i></a>
                 <button onClick={toggleButton}><i className="fa-solid fa-bars"></i></button>
             </DivHeaderIcons>
-            <DivHeaderMenu open={open}>
+            <DivHeaderMenu >
                 <button onClick={toggleButton}> <i className="fa-solid fa-x"></i></button>
                 <div>
                     <a href="#home"><i className="fa-solid fa-house"></i> Home</a>
