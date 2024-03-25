@@ -2,7 +2,7 @@ import './Form.css'
 
 export function Form() {
     return (
-        <div className="formContainer text-white px-4 py-16" >
+        <div className="formContainer text-white px-4 py-16" id='form'>
             <h2 className='contactTitle text-5xl text-center'>Contato</h2>
             <form className='form md:m-0 lg:ml-32 lg:mr-32 transition ease-in-out delay-150 '>
                 <div class="formContainer" >
@@ -26,7 +26,7 @@ export function Form() {
                     </div>
                 </div>
             </form>
-            <button type='submit' className='w-48 p-2 border-2 border-white rounded-lg outline-none font-bold sm:justify-self-center lg:justify-self-end md:m-0 lg:ml-32 lg:mr-32'>Enviar</button>
+            <button type='submit' className='w-32 lg:w-48 p-2 border-2 border-white rounded-lg outline-none font-bold justify-self-center lg:justify-self-end md:m-0 lg:ml-32 lg:mr-32'>Enviar</button>
         </div>
 
     )

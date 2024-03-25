@@ -62,7 +62,7 @@ export function BookList() {
     ]
 
     return (
-        <DivBookList>
+        <DivBookList id='bookList'>
             <DivBookListTitle>
                 <h2>Livros que amamos</h2>
                 <p>Aqui estão alguns títulos variados que podem atrair diferentes gostos:</p>

@@ -3,7 +3,7 @@ import wallpaper from '../../../public/img/wallpaper-book.jpg'
 
 export function Banner() {
     return (
-        <SectionBanner>
+        <SectionBanner id='banner'>
             <DivBannerTitle>
                 <h1>ONE MORE PAGE</h1>
                 <h4>Descubra mundos infinitos em cada página</h4>
@@ -19,7 +19,7 @@ const SectionBanner = styled.div`
     background-size: cover;
     background-position: center;
     width: 100vw;
-    height: 70vh;
+    height: 75vh;
     opacity: 0.8; 
 
     position: relative;
@@ -33,7 +33,7 @@ const DivBannerTitle = styled.div`
     
     position: absolute;
     right:2rem;
-    top: 3rem;
+    top: 6rem;
 
     display: flex;
     flex-direction: column;

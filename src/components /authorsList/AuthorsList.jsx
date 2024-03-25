@@ -3,8 +3,6 @@ import autor1 from '../../../public/img/author-1.jpg'
 import autor2 from '../../../public/img/author-2.jpg'
 import autor3 from '../../../public/img/author-3.avif'
 
-
-
 const list = [
     {
         img: autor1,
@@ -25,7 +23,7 @@ const list = [
 
 export default function AuthorsList() {
     return (
-        <DivAuthorsList>
+        <DivAuthorsList id='authorList'>
              <h2>Alguns de nossos autores</h2>
             {
                 list.map((item, index) => {

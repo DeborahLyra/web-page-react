@@ -2,6 +2,7 @@
 export function PhotoBanner() {
   return (
     <div
+    id="photoBanner"
       style={{
         position: 'relative',
         width: '100%',
