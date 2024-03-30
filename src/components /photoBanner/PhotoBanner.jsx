@@ -14,7 +14,7 @@ export function PhotoBanner() {
         src="../../../public/img/livraria.avif"
         alt="Bookstore One More Page"
         width={'100%'}
-        style={{ height: '60vh', opacity: '0.6' }}
+        style={{ height: '70vh', opacity: '0.6' }}
       />
       <div
         style={{
